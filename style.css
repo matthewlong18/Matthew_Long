@@ -1,7 +1,39 @@
+/* Reset default browser margins */
 body {
-  background-color: #fafafa;
-  color: #333;
-  text-align: center;
+  margin: 0;
   font-family: Arial, sans-serif;
-  margin-top: 50px;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation links */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #555;
 }
